@@ -1,0 +1,62 @@
+.week-mode{
+  overflow: hidden;
+  filter: invert(80%);
+}
+.beauty-scroll,.ant-table-body,.ant-table-body-inner{
+  scrollbar-color: @primary-color @primary-2;
+  scrollbar-width: thin;
+  -ms-overflow-style:none;
+  position: relative;
+  &::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: @primary-color;
+  }
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+    border-radius: 3px;
+    background: @primary-3;
+  }
+}
+.ant-table-body,.ant-table-body-inner{
+  &::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+  }
+}
+.ant-table-fixed-left,.ant-table-fixed-right{
+  bottom:10px;
+}
+.ant-table-stat-footer {
+  font-weight: bold;
+  background-color: @table-selected-row-bg;
+}
+@primary-01:    fade(@primary-1,50%);
+
+.ant-table-tbody {
+  .bold{  font-weight:bold; }
+  .height-10{  line-height: 1; }
+  .height-20{  line-height: 2; }
+  .height-30{  line-height: 3; }
+  .height-40{  line-height: 4; }
+  .height-50{  line-height: 5; }
+  .height-60{  line-height: 6; }
+  .height-70{  line-height: 7; }
+  .height-80{  line-height: 8; }
+  .height-90{  line-height: 9; }
+  .height-100{  line-height: 10; }
+}
+
+.split-right{
+  &:not(:last-child) {
+    border-right: 1px solid rgba(98, 98, 98, 0.2);
+  }
+}
+.disabled{
+  cursor: not-allowed;
+  color: @disabled-color;
+  pointer-events: none;
+}
