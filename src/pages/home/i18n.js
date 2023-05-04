@@ -1,0 +1,37 @@
+module.exports = {
+  messages: {
+    cn: {
+      login: '登录',
+      autologin: '自动登录',
+      tabtitle: 'Getac AD用户登录',
+      description: '全新智能工厂BI系统',
+      nameplaceholder: 'AD账号',
+      nametip: '请输入AD账号',
+      pwdplaceholder: 'AD密码',
+      pwdtip: '请输入AD密码',
+      welcome: '{name}, 欢迎回来, {hello}！',
+    },
+    tw: {
+      login: '登錄',
+      autologin: '自動登錄',
+      tabtitle: 'Getac AD用戶登錄',
+      description: '全新智能工廠BI系統',
+      nameplaceholder: 'AD賬號',
+      nametip: '請輸入AD賬號',
+      pwdplaceholder: 'AD密碼',
+      pwdtip: '請輸入AD密碼',
+      welcome: '{name}, 歡迎回來, {hello}！',
+    },
+    us: {
+      login: 'Sign In',
+      autologin: 'Auto Login',
+      tabtitle: 'Getac AD User Login',
+      description: 'Next generation intelligent factory BI system',
+      nameplaceholder: 'AD Name',
+      nametip: 'Please input AD name',
+      pwdplaceholder: 'AD Password',
+      pwdtip: 'Please input AD password',
+      welcome: '{name}, welcome back and {hello}!',
+    },
+  },
+}
