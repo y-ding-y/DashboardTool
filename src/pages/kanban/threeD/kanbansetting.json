@@ -1,0 +1,427 @@
+{
+    "btns": [
+        {
+            "key": "background",
+            "name": "background",
+            "btnname": "子屏幕",
+            "btnbackgroundcolor": "#d5ffe9",
+            "comname": "background",
+            "iconname": "#icon-dateboard",
+            "expandpara": {
+                "zIndex": -999
+            },
+            "comurl": "@/components/three3D/background.vue"
+        },
+        {
+            "key": "model",
+            "name": "bg",
+            "btnname": "背景",
+            "btnbackgroundcolor": "#d5ffe9",
+            "comname": "model",
+            "iconname": "#icon-chengguozhanshi",
+            "expandpara": {
+                "zIndex": -999,
+                "modelstyle": []
+            },
+            "comurl": "@/components/three3D/model.vue"
+        },
+        {
+            "key": "search",
+            "name": "search",
+            "btnname": "搜索",
+            "btnbackgroundcolor": "#d5ffe9",
+            "comname": "search",
+            "iconname": "#icon-sousuo",
+            "expandpara": {
+                "searchform": [],
+                "width": 600
+            },
+            "comurl": "@/components/three3D/search.vue"
+        },
+        {
+            "key": "texts",
+            "name": "text",
+            "btnname": "文本",
+            "btnbackgroundcolor": "#fff4d5",
+            "comname": "texts",
+            "iconname": "#icon-zu",
+            "expandpara": {
+                "content": "文本",
+                "fontSize": 20,
+                "borderRadius": 0,
+                "textAlign": "center",
+                "spacing": 1,
+                "fontweight": 500,
+                "fontstyle": "normal",
+                "color": "rgba(255,255,255,1)",
+                "backgroundcolor": null,
+                "decoration": "none"
+            },
+            "comurl": "@/components/three3D/texts.vue"
+        },
+        {
+            "key": "datetime",
+            "name": "datetime",
+            "btnname": "日期时间",
+            "btnbackgroundcolor": "#fff4d5",
+            "comname": "datetime",
+            "iconname": "#icon-shijian2",
+            "expandpara": {
+                "width": 300,
+                "fontSize": 20,
+                "datetimetype": "Y-m-d H:i:s",
+                "borderRadius": 0,
+                "textAlign": "center",
+                "spacing": 1,
+                "fontweight": 500,
+                "fontstyle": "normal",
+                "color": "rgba(255,255,255,1)",
+                "backgroundcolor": null,
+                "decoration": "none"
+            },
+            "comurl": "@/components/three3D/datetime.vue"
+        },
+        {
+            "key": "image",
+            "name": "image",
+            "btnname": "图片",
+            "btnbackgroundcolor": "#fff4d5",
+            "comname": "image",
+            "iconname": "#icon-tupian",
+            "expandpara": {
+                "height": 300,
+                "width": 300,
+                "rotate": 0,
+                "rotateXY": ""
+            },
+            "comurl": "@/components/three3D/image.vue"
+        },
+        {
+            "key": "elcarousel",
+            "name": "elcarousel",
+            "btnname": "走马灯",
+            "btnbackgroundcolor": "#fff4d5",
+            "comname": "elcarousel",
+            "iconname": "#icon-drxx70",
+            "expandpara": {
+                "files": [],
+                "interval": 3,
+                "imgsrc": "upload"
+            },
+            "comurl": "@/components/three3D/elcarousel.vue"
+        },
+        {
+            "key": "comdiv",
+            "name": "comdiv",
+            "btnname": "组合div",
+            "btnbackgroundcolor": "#dfd5ff",
+            "comname": "comdiv",
+            "iconname": "#icon-zuhe",
+            "expandpara": {
+                "coms": []
+            },
+            "comurl": "@/components/three3D/comdiv.vue"
+        },
+        {
+            "key": "solidgaugechart",
+            "name": "solidgaugechart",
+            "btnname": "仪表图",
+            "btnbackgroundcolor": "#edffd5",
+            "comname": "solidgaugechart",
+            "iconname": "#icon-yibiaoyiqi",
+            "expandpara": {
+                "width": 800,
+                "height": 800,
+                "highchart": {
+                    "credits": {
+                        "enabled": true,
+                        "text": "版权信息",
+                        "color": "orange",
+                        "positionx": -10,
+                        "positiony": -5,
+                        "align": "right",
+                        "verticalalign": "bottom"
+                    },
+                    "tooltip": {
+                        "bordercolor": "red",
+                        "style": {
+                            "color": "red"
+                        }
+                    },
+                    "chart": {
+                        "spacingtop": 0,
+                        "spacingright": 0,
+                        "spacingbottom": 0,
+                        "spacingleft": 0
+                    },
+                    "data": {},
+                    "drilldown": {},
+                    "labels": {},
+                    "pane": {
+                        "center": [
+                            50,
+                            85
+                        ],
+                        "size": 100,
+                        "startAngle": -90,
+                        "endAngle": 90,
+                        "backgroundcolor": "#EEE",
+                        "innerradius": 60,
+                        "outerradius": 100,
+                        "shape": "arc",
+                        "startangle": -90,
+                        "endangle": 90
+                    },
+                    "plotOptions": {
+                        "series": {
+                            "dataLabels": {
+                                "enabled": true,
+                                "style": {
+                                    "fontsize": 13,
+                                    "color": "red",
+                                    "textoutline": "none",
+                                    "fontweight": 500,
+                                    "bordercolor": "#e2e2e2",
+                                    "border": 1
+                                },
+                                "align": "right",
+                                "verticalalign": "bottom"
+                            }
+                        }
+                    },
+                    "series": [
+                        {
+                            "type": "solidgauge",
+                            "yname": "y",
+                            "format": "y",
+                            "axislinecolor": [
+                                [
+                                    0,
+                                    "orange"
+                                ],
+                                [
+                                    0,
+                                    "orange"
+                                ],
+                                [
+                                    0,
+                                    "orange"
+                                ]
+                            ]
+                        }
+                    ],
+                    "yAxis": [
+                        {
+                            "enabled": true,
+                            "tickcount": 5,
+                            "tickposition": "inside",
+                            "min": 0,
+                            "max": 1,
+                            "titlealign": "middle",
+                            "rotation": 270,
+                            "offsetx": 0,
+                            "offsety": 0,
+                            "gridwidth": 0,
+                            "gridlinecolor": "white",
+                            "griddashtype": "Solid",
+                            "labels": {
+                                "style": {
+                                    "fontsize": 13,
+                                    "color": "red",
+                                    "textoutline": "none",
+                                    "fontweight": 500,
+                                    "bordercolor": "#e2e2e2",
+                                    "border": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "comurl": "@/components/three3D/solidgaugechart.vue"
+        },
+        {
+            "key": "echartsbar",
+            "name": "echartsbar",
+            "btnname": "echarts图表",
+            "btnbackgroundcolor": "#edffd5",
+            "comname": "echartsbar",
+            "iconname": "#icon-zhuzhuangtu",
+            "expandpara": {
+                "width": 800,
+                "height": 800,
+                "highchart": {
+                    "chart": {},
+                    "data": {},
+                    "labels": {},
+                    "legend": {
+                        "enabled": true,
+                        "layout": "horizontal",
+                        "color": "orange",
+                        "fontsize": 14,
+                        "align": "left",
+                        "verticalalign": "bottom",
+                        "x": 170,
+                        "y": 0,
+                        "hovercolor": "red"
+                    },
+                    "series": [
+                        {
+                            "type": "bar",
+                            "xname": "name",
+                            "yname": "y",
+                            "xAxis": 0,
+                            "yAxis": 0,
+                            "format": "y"
+                        }
+                    ],
+                    "tooltip": {
+                        "bordercolor": "red",
+                        "style": {
+                            "color": "red"
+                        }
+                    },
+                    "xAxis": [
+                        {
+                            "enabled": true,
+                            "tickcount": 5,
+                            "min": 0,
+                            "max": 1,
+                            "titlealign": "middle",
+                            "rotation": 270,
+                            "labels": {
+                                "style": {
+                                    "fontsize": 13,
+                                    "color": "red",
+                                    "textoutline": "none",
+                                    "fontweight": 500,
+                                    "bordercolor": "#e2e2e2",
+                                    "border": 1
+                                }
+                            },
+                            "splitline": {
+                                "show": true,
+                                "type": "solid",
+                                "color": "#e2e2e2",
+                                "width": 1
+                            }
+                        }
+                    ],
+                    "yAxis": [
+                        {
+                            "enabled": true,
+                            "tickcount": 5,
+                            "min": 0,
+                            "max": 1,
+                            "titlealign": "middle",
+                            "rotation": 270,
+                            "labels": {
+                                "style": {
+                                    "fontsize": 13,
+                                    "color": "red",
+                                    "textoutline": "none",
+                                    "fontweight": 500,
+                                    "bordercolor": "#e2e2e2",
+                                    "border": 1
+                                }
+                            },
+                            "splitline": {
+                                "show": true,
+                                "type": "solid",
+                                "color": "#e2e2e2",
+                                "width": 1
+                            }
+                        }
+                    ],
+                    "zAxis": {}
+                }
+            },
+            "comurl": "@/components/three3D/echartsbar.vue"
+        },
+        {
+            "key": "eltable",
+            "name": "eltable",
+            "btnname": "el滚动表格",
+            "btnbackgroundcolor": "#edffd5",
+            "comname": "eltable",
+            "iconname": "#icon-biaoge",
+            "expandpara": {
+                "fontSize": 20,
+                "height": 300,
+                "width": 600,
+                "table": {
+                    "isscroll": true,
+                    "columns": [
+                        {
+                            "width": 100,
+                            "label": "Date",
+                            "prop": "date"
+                        },
+                        {
+                            "width": 100,
+                            "label": "Name",
+                            "prop": "name"
+                        },
+                        {
+                            "width": 100,
+                            "label": "Address",
+                            "prop": "address"
+                        }
+                    ],
+                    "rowcell": {
+                        "fontsize": 14,
+                        "height": 50,
+                        "color": "white",
+                        "speed": 3
+                    },
+                    "headercell": {
+                        "fontsize": 14,
+                        "height": 50,
+                        "color": "white"
+                    }
+                }
+            },
+            "comurl": "@/components/three3D/eltable.vue"
+        },
+        {
+            "key": "showmodel",
+            "name": "showmodel",
+            "btnname": "model展示",
+            "comname": "showmodel",
+            "iconname": "#icon-tupian1",
+            "expandpara": {
+                "fontSize": 20
+            },
+            "comurl": "@/components/three3D/showmodel.vue"
+        },
+        {
+            "key": "videoplay",
+            "name": "videoplay",
+            "btnname": "video播放",
+            "comname": "videoplay",
+            "iconname": "#icon-shipin",
+            "expandpara": {
+                "fontSize": 20,
+                "width": 400,
+                "height": 400
+            },
+            "comurl": "@/components/three3D/videoplay.vue"
+        },
+        {
+            "key": "weather",
+            "name": "weather",
+            "btnname": "天气",
+            "comname": "weather",
+            "iconname": "#icon-shipin",
+            "expandpara": {
+                "fontSize": 20,
+                "width": 200,
+                "height": 200,
+                "weatherlayout": 1,
+                "weathertype": 0
+            },
+            "comurl": "@/components/three3D/weather.vue"
+        }
+    ],
+    "id": "0"
+}
